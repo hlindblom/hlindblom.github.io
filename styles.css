@@ -1,6 +1,151 @@
 * { 
     font-family: Garamond, Georgia, serif;
 }
+html {
+    scroll-behavior: smooth;
+
+}
 body {
-    background-image: url("./Images/vivid-blurred.jpg");
+    background-image: url("./Images/vivid-background.jpg");
+    background-color: black;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    font-size: 1.2em;
+}
+
+
+main {
+    margin-left: 20%;
+}
+footer {
+    font-size: 0.75rem;
+    margin-left: 20%;
+}
+.sidebar {
+    width: 20%;
+    background-color:rgba(38, 38, 38, 0.75);
+    height: 100vh;
+    position: fixed;
+    margin-left: 0%;
+    display: flex;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: right;
+}
+.sidebar li {
+    list-style-type: none;
+    padding: 0.5rem 0;
+    font-size: 2rem;
+}
+
+.sidebar li a {
+    padding: 0.25rem 0.50rem;
+    border-radius: 3px;
+    text-decoration: none;
+    color: antiquewhite;
+
+
+}
+.sidebar li a:hover {
+    color:rgba(38, 38, 38, 100);
+}
+.itacilize { 
+    font-style: italic;
+}
+
+section{
+    height: 100vh;
+    border: 1px solid red;
+    margin: 0% 5%;
+}
+
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+#name {
+    padding: 2%;
+    color: antiquewhite;
+}
+
+#name p {
+    text-align: right;
+    font-style: italic;
+    font-size: 1rem;
+    margin-top: 0;
+
+}
+#name h1 {
+    font-size: 5.5rem;
+    margin-bottom: 0;
+    text-shadow: 2px 2px black;
+}
+
+#social {
+    margin-top: 10%;
+    text-align: center;
+}
+
+
+#social span {
+    margin: 0% 2%;
+}
+
+
+#cv {
+    background-color: antiquewhite;
+    border-radius: 2%;
+    margin: 0 15%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: scroll;
+    padding-top: 0%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+}
+
+
+
+#langs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+#langs img {
+    height: 50px;
+    width: 50px;
+}
+#langInner {
+    border: 1px solid black;
+    margin: 0% 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+#langInner div {
+    border: 1px solid red;
+}
+#langInner p {
+    margin: 0;
+}
+#cv h3 {
+    margin-bottom: 0;
+}
+
+hr {
+    border-top: .15rem solid black;
+    margin-top: 0;
+    /* border-radius: 25rem; */
+  
 }
